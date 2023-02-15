@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { NavLink, useParams, Navigate } from 'react-router-dom';
 import { authUser } from '../../Services/auth';
-import { UserContext } from '../context/UserContext.js';
+import { UserContext } from '../Context/UserContext.js';
 
 export default function Auth() {
     const [email, setEmail] = useState('');

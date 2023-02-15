@@ -9,7 +9,7 @@ export default function Auth() {
     const { type } = useParams();
     const { user, setUser } = useContext(UserContext);
     if (user) {
-        return <Navigate to='/list' />;
+        return <Navigate to='/' />;
     }
     const submitAuth = async (e) => {
         e.preventDefault();

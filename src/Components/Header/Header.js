@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { UserContext } from '../context/UserContext.js';
+import { UserContext } from '../Context/UserContext.js';
 import { signOut } from '../../Services/auth.js';
 
 export default function Header() {
